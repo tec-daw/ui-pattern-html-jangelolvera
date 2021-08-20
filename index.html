@@ -1,10 +1,76 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>My HTML file</title>
-  </head>
-  <body>
-    <p>This is my page 😎 oh yeah</p>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angel Slideshow</title>
+</head>
+
+
+<body style="background: rgb(13, 18, 23); position: fixed; margin: 0%;">
+  <!--Aquí se encuentran las imagenes que desplegará el slideshow-->
+  <div style="display: flex; text-align: center; position: relative; margin: 0%; padding: 0%;">
+
+    <div style="width: 32%; margin: 0.5%;">
+      <img src="botw_index.jpg" style="width:90%; height:50%;">
+      <!--Texto que aparece junto con su imagen correspondiente-->
+      <div style="text-align: center;color: rgb(86, 156, 214);">¡Descubre los mejores juegos!</div>
+    </div>
+
+    <div style="width: 32%; margin: 0.5%;">
+      <img src="berserk_index.jpg" style="width:100%;height: 70%;">
+      <div style="text-align: center;color: rgb(86, 156, 214);">¡Descubre lo mejor en manga!</div>
+    </div>
+
+    <div style="width: 32%;margin: 0.5%;">
+      <img src="BB_index.jpg" style="width:90%; height: 50%;">
+      <div style="text-align: center;color: rgb(86, 156, 214);">¡Descubre las mejores series!</div>
+    </div>
+
+  </div>
+  <!--Son los iconos de las flechas para pasar a la siguiente o anterior imagen al dar click-->
+  <div style="position: absolute;display: flex; margin-top: -19%; width: 100%; height: 100%;">
+
+    <div style="text-align: left; width: 50%">
+      <input type="image" style="width: 10%; height: 25%;" src="left_arrow.png">
+    </div>
+
+    <div style="text-align: right;width: 50%;">
+      <input type="image" style="width: 10%; height: 25%;" src="right_arrow.png">
+    </div>
+  </div>
+  <!--Puntos de referencia para saber en que imagen se encuentra el usuario-->
+  <div style="text-align: center; margin-top: -3%;">
+    <span style="margin: 1%;"> <img src="White_dot.svg.png" style="width: 1%;"></span>
+    <span style="margin: 1%; background-color: gray;"> <img src="White_dot.svg.png" style="width: 1%;"></span>
+    <span style="margin: 1%;"> <img src="White_dot.svg.png" style="width: 1%;"></span>
+
+  </div>
+
+  <br>
+
+  <!--Sample text-->
+
+  <p style="text-align: justify;color: honeydew; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+    literature from 45 BC,
+    making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
+    up one of the more
+    obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+    literature, discovered
+    the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+    Extremes of Good and Evil)
+    by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+    The first line of Lorem Ipsum,
+    "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+    layout. The point of using
+    Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content
+    here', making it look like
+    readable English.
+  </p>
+
+</body>
+
 </html>
